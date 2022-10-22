@@ -1,0 +1,21 @@
+.navBar_mainSection {
+    width: 100%;
+}
+
+.customNavbar {
+    height: 70px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 13px 31px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    //  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    // box-shadow: rgba(0 0 0 / 10%) 0px 13px 31px -1px, rgb(0 0 0 / 6%) 0px 4px 4px -1px;
+    background: #F1F1E6;
+    // position: fixed;
+    .signOut {
+        background: #213c5e;
+        color: white;
+    }
+}
+
+.aside {
+    background: #3B4964;
+}

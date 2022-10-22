@@ -1,0 +1,93 @@
+.sales_card {
+    // box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 7px;
+}
+
+.main_content {
+    background-color: #f2f7f8;
+}
+
+.progressBar_Height {
+    height: 6px !important;
+}
+
+.heading_primary {}
+
+.heading_secondary {
+    font-weight: 700;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+
+.heading_sub_secondary {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    color: #495057 !important;
+    padding-bottom: 10px;
+}
+
+.card_shadow {
+    border: none !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+}
+
+// ckEditor 
+.ck-editor__editable:not(.ck-editor__nested-editable) {
+    min-height: 250px;
+    border: none !important;
+    // border-top: 1px solid red !important;
+}
+
+// .ck-toolbar__items{
+//     border: none !important;
+// }
+.ck-toolbar_grouping {
+    border: none !important;
+}
+
+// basic form -> file upload -> preview image --------------->>>>>>>>>>>>>>>.
+.image_preview_col {
+    width: 100%;
+    height: auto;
+    .view_image {
+
+        width: 100%;
+        height:auto;
+        .image_preview {
+            width: 100%;
+            width: 100%;
+            height: auto;
+            height: 100px;
+            // max-height: 350px;
+        
+            img {
+        
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+    }
+
+    .overlay {
+        .icon_div{
+            .icon {
+                cursor: pointer;
+                font-size: 37px;
+            }
+        }
+    }
+}
+
+// react dropzone CSS
+.react_dropzone{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-style: dashed;
+    padding: 20px;
+    margin: 20px;
+}
