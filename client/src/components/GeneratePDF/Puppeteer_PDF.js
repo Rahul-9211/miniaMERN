@@ -142,9 +142,9 @@ const Puppeteer_PDF = () => {
                 <ModalBody className=''>
                     <Col md={12}>
                         {/* <DropzoneEditor ref={send_dropZone_files_function_Call_ref} /> */}
-                        <Input className='' type='file' multiple onChange={handle_dropzone_onChange}/>
+                        <Input className='' type='file' accept='image/png, image/jpg, image/jpeg"' multiple onChange={handle_dropzone_onChange}/>
                     <Label htmlFor='desc' className='px-3'>Description : </Label>
-                    <Input type='test' name='desc' className='px-3' onChange={handle_discription_onChange} multiple />
+                    <Input type='text' name='desc' className='px-3' onChange={handle_discription_onChange} multiple />
                     </Col>
                 </ModalBody>
                 <ModalFooter>

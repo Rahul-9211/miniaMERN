@@ -25,8 +25,8 @@ app.use(express.static('client')) // to host the server files locally
 
 // console.log("dir ", __dirname)
 try {
-    mongoose.connect(`${process.env.MONGOOSE_STRING}`, { useNewUrlParser: true })
-    console.log("mongo connected : ")
+    mongoose.connect(`${process.env.MONGO_ADMIN_URL_ATLAS}`, { useNewUrlParser: true })
+    console.log("mongo connected : ", process.env.MONGO_ADMIN_URL_ATLAS)
 } catch (error) {
     console.log(error)
 }
